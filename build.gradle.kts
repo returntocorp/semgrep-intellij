@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.gradleIntelliJPlugin) // Gradle IntelliJ Plugin
     alias(libs.plugins.changelog) // Gradle Changelog Plugin
     alias(libs.plugins.kover) // Gradle Kover Plugin
-    id("io.sentry.jvm.gradle") version "4.6.0" //Sentry plugin
+    id("io.sentry.jvm.gradle") version "5.0.0" //Sentry plugin
 }
 
 group = properties("pluginGroup").get()
